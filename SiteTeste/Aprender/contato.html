@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>Aprendendo HTML CSS e JS</title>	
+		<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	</head>
+	<script language="javascript" src="_javascript/funcoes.js"></script>
+<body>
+<div id="interface">
+	<header id= "cabecalho">
+		<hgroup>
+			<img id="logoprincipal" src="imagens/logo.jpg"/>
+			<h1>DollarAllWin</h1>
+			<h2>Aprendendo HTML, CSS e JS</h2>
+		</hgroup>
+		<img id="icone" src="imagens/back1.png"/>
+		<nav id="menu">
+			<ul>
+			<li onmouseover="mudaFoto('imagens/home.png')" onmouseout="mudaFoto('imagens/back1.png')"><a href="index.html">HOME</a></li>
+			<li onmouseover="mudaFoto('imagens/fotos.png')" onmouseout="mudaFoto('imagens/back1.png')"><a href="fotos.html">FOTOS</a></li>
+			<li onmouseover="mudaFoto('imagens/multimidia.png')" onmouseout="mudaFoto('imagens/back1.png')"><a href="videos.html">VIDEOS</a></li>	
+			<li onmouseover="mudaFoto('imagens/contato.png')" onmouseout="mudaFoto('imagens/back1.png')"><a href="contato.html">CONTATO</a></li>
+			</ul>
+		</nav>
+	</header>
+	<article id="paginas">
+	<h2>CONTATO</h2>
+	<form id="Lcontatos" method="post" action="conclusaom.php">
+		<fieldset id="usuario">
+		<legend>Dados</legend>
+		<label id="lnome">Nome:</label> <input type="text" name="nome" placeholder="Nome Completo" size="30"/><br/>
+		<label id="lpais">País:</label> <input type="text" name="pais" size="30"/><br/>
+		<label id="lestado">Estado:</label> <input type="text" name="estado" size="30"/><br/>
+		<label id="lcidade">Cidade:</label> <input type="text" name="cidade" size="30"/><br/>
+		<label id="lemail">E-mail:</label> <input type="text" name="email" placeholder="Exemplo: meuemail@dominio.com" size="30"/><br/></br>
+		<label id="lmensagem">Sua Mensagem:</label> <textarea name="mensagem" cols="45" rows="10" placeholder="Digite Sua Mensagem"></textarea><br/>
+		<input type="submit" value="Enviar"/>
+		</fieldset>
+	</form>
+	</article>
+	</div>
+</body>
+</html>

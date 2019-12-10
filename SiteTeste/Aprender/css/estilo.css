@@ -1,0 +1,138 @@
+@charset "UTF-8";
+@font-face{
+	font-family: 'Fontelogo';
+	src: url("../fonts/bubblegum-sans-regular.otf");
+}
+
+body{
+	font-family: Arial, sans-serif;
+	background-color:#dddddd;
+}
+
+p{
+	text-align: justify;
+	text-indent: 20px;
+}
+
+div#interface{
+	width:900px;
+	margin: -20px auto 0px auto;
+	background-color: white;
+	box-shadow: 0px 0px 10px black;
+	padding: 10px
+}
+
+article#paginas h2{
+	font-family: Arial, sans-serif;
+	color: #cecece;
+	background-color: #606060;
+}
+
+section#corpo{
+	display: block;
+	width: 400px;
+	border-right: 1px solid #606060;;
+	padding-right: 15px;
+	
+	
+}
+
+
+section#corpo h2{
+	fonte-family: Arial, sans-serif;
+	color: #cecece;
+	background-color: #606060;
+	padding: 0px;
+	margin: 10px;
+}
+
+aside#lateral{
+	display: block;
+	width: 400px;
+	margin-top: 10px;
+	background-color: #dddddd;
+	padding: 10pt;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.4);*/
+}
+
+aside#lateral h2{
+	font-size: 30px;
+	background-color: #606060;
+}
+/*Formatando MENU*/
+nav#menu{
+	display: block;
+}
+
+nav#menu ul{
+	position: absolute;	
+	text-transform: uppercase;
+	list-style: none;
+	top: -10px;
+	left: 500px;
+}
+
+nav#menu li{
+	display: inline-block;
+	background-color: #dddddd;
+	padding: 10px;
+	transition: background-color 1s;	
+}
+nav#menu li:hover{
+	background-color: #606060;
+}
+
+nav#menu a{
+	font-family: arial, sans-serif;
+	text-decoration: none;
+}
+header#cabecalho{
+	border-bottom: 1px #606060 solid;
+	
+}
+header#cabecalho img#icone{
+	position: absolute;
+	left: 865px;
+	top:45px;
+}
+header#cabecalho h1{
+	font-family: 'Fontelogo', sans-serif;
+	font-size: 50px;
+	color: #606060;
+	margin-top: 0px;	
+	margin-bottom: 5px;
+}
+
+header#cabecalho h2{
+	font-family: Arial, sans-serif;
+	font-size: 30px;
+	color: #606060;
+	margin-top: 0px;
+}
+
+form{
+	font-family: Arial, sans-serif;
+	font-size: 20px;
+	color: #606060;
+	
+}
+
+#Lcontatos label#lnome{
+	padding-right: 30px;
+}
+#Lcontatos label#lpais{
+	padding-right: 43px;
+}
+#Lcontatos label#lestado{
+	padding-right: 21px;
+}
+#Lcontatos label#lcidade{
+	padding-right: 20px;
+}
+#Lcontatos label#lemail{
+	padding-right: 27px;
+}
+#Lcontatos label#lmensagem{
+	position:absolute;
+	top: 545px;
+}
